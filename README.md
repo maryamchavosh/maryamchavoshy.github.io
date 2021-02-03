@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
+# [ClearCareer](http://startbootstrap.com/) 
 
-You can use the [editor on GitHub](https://github.com/maryamchavoshy/maryamchavoshy.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+[Resume](https://izzydoesizzy.github.io/resumetemplate/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Izzy Piyale-Sheard](http://izzydoesizzy.com/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Getting Started
 
-### Markdown
+To use this theme, please take the following steps.
+1. Fork this repository on GitHub
+2. Make an edit to your site and commit the change
+3. Go to [http://YourGithubProfile.github.io/resumetemplate](http://izzydoesizzy.github.io/resumetemplate)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Adding a custom domain name
+There are 2 ways of adding a custom domain to your Github Pages site.
 
-```markdown
-Syntax highlighted code block
+#### Method 1: 
+1. Click on "Settings" under your repository
+2. Scroll down to custom domain
+3. Add your custom domain
+4. Login to your domain registrar and modify the DNS settings
+	- Add a new A Record
+		- Record Type: 	A
+		- Host: 		@
+		- Points to: 	192.30.252.153
+	- [see more details](http://stackoverflow.com/questions/23375422/how-to-setup-github-pages-to-redirect-dns-requests-from-subdomain-e-g-www-to/23375423#23375423)
 
-# Header 1
-## Header 2
-### Header 3
+#### Method 2:
+1. In the main directory add a file named CNAME (without a file extension)
+2. Open and edit the file, and add your domain name [example.com](#)
+3. Login to your domain registrar and modify the DNS settings
+	- Add a new A Record
+		- Record Type: 	A
+		- Host: 		@
+		- Points to: 	192.30.252.153
+	- [see more details](http://stackoverflow.com/questions/23375422/how-to-setup-github-pages-to-redirect-dns-requests-from-subdomain-e-g-www-to/23375423#23375423)
 
-- Bulleted
-- List
+![Edit](/images/image1.png) ![Edit](/images/image2.png)
+![Edit](/images/image3.png) ![Edit](/images/image4.png)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Bugs and Issues
 
-[Link](url) and ![Image](src)
-```
+Have a bug or an issue with this theme? [Open a new issue](https://github.com/clearcareer/ResumeTemplate/issues) here on GitHub.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Copyright and License
 
-### Jekyll Themes
+Copyright 2016 ClearCareer. Code released under the [Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/maryamchavoshy/maryamchavoshy.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+## Attribution
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[IconMoon](https://icomoon.io/)  
+[FontAwesome](http://fontawesome.io/)  
+
+This resume template uses the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+Bruno Rodriguez - Timeline  
+- [Github: https://github.com/itbruno](https://github.com/itbruno)
+- [Twitter: https://twitter.com/_brunoweb](https://twitter.com/_brunoweb)
+
+Train Tracks Photo https://unsplash.com/@reddangelo16
+
+
+<hr>
+
+This project was developed by **Iskender Piyale-Sheard (aka: Izzy)**, the Community Manager at [Lighthouse Labs](http://bit.ly/izzydoesizzygithub) as a fun side project. 
+
+Come say hi on Twitter [@izzydoesizzy](http://www.twitter.com/izzydoesizzy)! 
+
+----
+> Iskender Piyale-Sheard: [www.izzydoesizzy.com](https://www.izzydoesizzy.com/) &nbsp;&middot;&nbsp;
+> LinkedIn: [@izzydoesizzy](https://www.linkedin.com/in/izzydoesizzy) &nbsp;&middot;&nbsp;
+> Twitter: [@izzydoesizzy](https://twitter.com/izzydoesizzy)
+
